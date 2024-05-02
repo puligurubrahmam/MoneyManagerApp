@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.bg {
+  padding: 120px;
+}
+.name {
+  font-size: 'Roboto';
+  color: #475569;
+  font-size: 40px;
+}
+.greet {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.link {
+  color: #0b69ff;
+}
+.card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: auto;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+}
+.managerSession {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+.innercard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecfccb;
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid #84cc16;
+  margin: 10px;
+}
+.card2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cffafe;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid #06b6d4;
+}
+.card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 10px;
+  background-color: #ede9fe;
+  border-radius: 20px;
+  border: 1px solid #7c3aed;
+}
+.balance {
+  height: 100px;
+  width: 100px;
+}
+.btn {
+  background-color: #0b69ff;
+  padding: 10px;
+  width: 80px;
+  color: #ffffff;
+  border: none;
+}
+.managerForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  width: 400px;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px #cbd5e1;
+  padding: 40px;
+  margin: 20px;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  box-shadow: 0px 0px 3px #cbd5e1;
+  padding: 40px;
+  margin: 20px;
+}
+.headingCard {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0px 0px 3px #cbd5e1;
+  padding: 10px;
+}
+.card4 {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.title {
+  padding: 10px;
+}
+.amount {
+  padding: 10px;
+}
+.type {
+  padding: 10px;
+}
+.head {
+  color: #1e293b;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.para {
+  color: #1e293b;
+  font-weight: bold;
+  margin: 10px;
+  font-family: 'Roboto';
+}
+.para1 {
+  height: 20px;
+  width: 20px;
+}
+@media screen and (max-width: 767px) {
+  .card4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .greet {
+    font-size: 15px;
+  }
+  .card {
+    width: auto;
+  }
+  .managerForm {
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+  }
+  .bg {
+    padding: 20px;
+  }
+  .output {
+    padding: 20px;
+    height: auto;
+    width: auto;
+  }
+}
